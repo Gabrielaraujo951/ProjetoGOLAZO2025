@@ -1,4 +1,4 @@
-📘 Documentação do Projeto – Portal Futurista do Brasileirão 2025
+📘 Projeto – Portal Futurista do Brasileirão 2025
 🎯 Objetivo do Projeto
 
 O objetivo deste projeto é desenvolver uma página web interativa sobre o Brasileirão 2025, apresentando funcionalidades que permitam ao usuário visualizar informações de classificação, realizar um cadastro simples e calcular a média de gols de partidas.
