@@ -97,4 +97,4 @@ Ideal para estudos de Front-end, prototipagem, portfólios e evolução futura p
 1. Instale a extensão **Live Server**.
 2. Clique com o botão direito no arquivo `index.html`.
 3. Escolha **Open with Live Server**.
-4. O projeto abrirá em:
+4. O projeto abrirá.
