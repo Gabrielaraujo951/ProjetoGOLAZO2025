@@ -1,139 +1,100 @@
-# 📘 Projeto – Portal Futurista do Brasileirão 2025
-## 🎯 Objetivo do Projeto
+# ⚽ Golazo! – Brasileirão 2025  
+Plataforma Web Completa: Tabela • Jogos • Artilharia • Estatísticas • Mercado da Bola • Simulador
 
-### O objetivo deste projeto é desenvolver uma página web interativa sobre o Brasileirão 2025, apresentando funcionalidades que permitam ao usuário visualizar informações de classificação, realizar um cadastro simples e calcular a média de gols de partidas.
-### O projeto foi pensado para ser didático, responsivo e focado no uso de JavaScript, reforçando conceitos como manipulação do DOM, formulários e navegação por abas.
+---
 
-⚙️ Descrição das Funcionalidades
-✅ 1. Navegação por Abas
+## 📌 Objetivo do Projeto
+O **Golazo!** tem como objetivo oferecer uma plataforma moderna, responsiva e intuitiva para acompanhar todas as informações do **Campeonato Brasileiro 2025**.  
+O site apresenta tabela atualizada, jogos da rodada, estatísticas avançadas, artilharia, rumores do mercado da bola e até um simulador de resultados.
 
-A interface possui três abas principais:
+Ideal para estudos de Front-end, prototipagem, portfólios e evolução futura para consumo de APIs reais.
 
-Tabela
+---
 
-Cadastro
+## ✨ Funcionalidades
 
-Média de Gols
+### 🔷 Navegação por Abas (Tabs)
+- Transição suave entre:  
+  **Jogos • Tabela • Artilharia • Estatísticas • Mercado • Simulador**
+- Sem recarregamento da página.
+- Abas responsivas (desktop + mobile).
 
-Ao clicar em cada opção, somente a aba correspondente é exibida, deixando as demais ocultas.
-A troca é feita dinamicamente via JavaScript sem recarregar a página.
+### 🔷 Header Responsivo
+- Menu fixo elegante
+- Ícones Feather
+- Menu mobile dobrável
 
-✅ 2. Tabela de Classificação
+### 🔷 Destaque da Rodada
+- Banner com imagem, resumo e link para análise completa.
 
-Exibe uma tabela contendo:
+### 🔷 Tabela de Classificação
+- Indicadores visuais:
+  - Libertadores  
+  - Pré-Libertadores  
+  - Sul-americana  
+  - Rebaixamento  
+- Tabela estilizada e responsiva.
 
-Posição
+### 🔷 Calendário de Jogos
+- Lista de jogos com datas, horários, estádios e links para detalhes.
+- Destaques por cores.
 
-Time
+### 🔷 Artilharia
+- Tabela de goleadores com gols, assistências e clubes.
 
-Pontos
+### 🔷 Estatísticas Avançadas
+- Melhor ataque  
+- Melhor defesa  
+- Pior fair play  
+- Gráfico ilustrativo (placeholder)
 
-Jogos
+### 🔷 Mercado da Bola
+- Seção com Rumores + Oficializados.
+- Indicadores visuais de probabilidade.
 
-Vitórias, Empates, Derrotas
+### 🔷 Simulador de Resultados
+- Usuário escolhe os resultados de jogos.
+- Sistema gera campeão e rebaixado simulados.
+- Destaque visual na área de resultados.
 
-Gols Pró e Contra
+### 🔷 Footer Profissional
+- Links sociais
+- Informações adicionais
+- Observações sobre dados
 
-Saldo de Gols
+---
 
-Os dados são carregados dinamicamente através do JavaScript.
+## 🛠 Tecnologias Utilizadas
 
-✅ 3. Sistema de Cadastro
+### **Frontend**
+- **HTML5**
+- **CSS3 / TailwindCSS (via CDN)**
+- **Google Fonts (Inter & Montserrat)**
+- **Feather Icons**
+- **JavaScript Vanilla**
 
-O usuário preenche:
+### **Estilização extra**
+- `style.css` com:
+  - Animações (pulse)
+  - Hover effects  
+  - Scrollbar customizado
+  - Efeitos visuais de interação
 
-Nome
+---
 
-E-mail
+## ▶️ Como Executar o Projeto
 
-Time favorito
+### ✔ Opção 1 — Abrir diretamente
+1. Baixe os arquivos:
+   - `index.html`
+   - `style.css`
+2. Mantenha-os na mesma pasta.
+3. Abra `index.html` no navegador.
 
-O script valida os dados e exibe uma mensagem personalizada de confirmação, sem recarregar a página.
+---
 
-✅ 4. Cálculo da Média de Gols
-
-O usuário informa os gols de três partidas, e o programa:
-
-Valida se os valores são numéricos
-
-Calcula a média aritmética
-
-Exibe o resultado formatado com duas casas decimais
-
-✅ 5. Interface Responsiva
-
-O layout adapta-se automaticamente para telas menores:
-
-Navegação reorganizada
-
-Tabela mais compacta
-
-Elementos centralizados
-
-💻 Tecnologias Utilizadas
-Frontend
-
-HTML5 → estrutura da página
-
-CSS3 → estilização, responsividade e design moderno
-
-JavaScript (ES6) → lógica, validações e manipulação do DOM
-
-Recursos de Design
-
-Variáveis CSS para padronização de cores
-
-Layout com sombras e gradientes
-
-Classes dinâmicas para alternância de abas
-
-▶️ Instruções para Execução do Projeto
-1. Baixar os arquivos
-
-Certifique-se de ter os seguintes arquivos no mesmo diretório:
-
-index.html
-
-style.css
-
-java.js
-
-2. Estrutura recomendada da pasta
-/projeto-brasileirao-2025
- ├── index.html
- ├── style.css
- └── java.js
-
-3. Como executar
-
-Não é necessário servidor — basta:
-
-Abrir a pasta do projeto
-
-Dar dois cliques no arquivo index.html
-
-O navegador abrirá a página automaticamente
-
-4. Caso deseje rodar em servidor local (opcional)
-
-Se estiver usando VSCode, você pode instalar a extensão:
-
-🔵 Live Server
-
-Depois:
-
-Clique com o botão direito no arquivo index.html
-
-Selecione “Open with Live Server”
-
-A página abrirá em http://localhost:5500/.
-
-📌 Concluindo
-
-O projeto apresenta uma interface moderna, intuitiva e funcional, aplicando conceitos fundamentais de desenvolvimento web como:
-
-✔ manipulação do DOM
-✔ validação de formulários
-✔ navegação por abas
-✔ responsividade
-✔ organização de código HTML, CSS e JS
+### ✔ Opção 2 — Via Live Server (VS Code)
+1. Instale a extensão **Live Server**.
+2. Clique com o botão direito no arquivo `index.html`.
+3. Escolha **Open with Live Server**.
+4. O projeto abrirá em:
